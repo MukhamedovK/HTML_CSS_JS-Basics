@@ -1,0 +1,38 @@
+.red, .yellow {
+    width: 200px;
+    height: 200px;
+}
+
+.red {
+    background-color: blue;
+    transition: all 2s;
+}
+
+.yellow {
+    background-color: yellow;
+    transition: all 2s;
+}
+
+.red:hover {
+    background-color: green;
+    border-radius: 50%;
+}
+
+.yellow:active {
+    background-color: blue;
+}
+
+.input:focus {
+    background-color: red;
+}
+
+/* .red:hover {
+    background-color: red;
+    width: 500px;
+}
+
+.red:active {
+    border-radius: 50%;
+    background-color: green;
+    width: 200px
+} */

@@ -1,0 +1,86 @@
+ .text {
+    font-size: 50px;
+    font-weight: 600;
+    color: black;
+    animation-name: Animation;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes Animation {
+    from {
+        color: red;
+        margin-left: 0;
+        
+    }
+
+    50% {
+        color: blue;
+    }
+
+    to {
+        color: green;
+        margin-left: 400px;
+    }
+}
+
+.box {
+    background-color: green;
+    height: 200px;
+    width: 200px;
+    animation-name: boxAnimation;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+}
+
+@keyframes boxAnimation {
+    from {
+        background-color: red;
+        margin-left: 0;
+    }
+
+    50% {
+        margin-left: 400px;
+    }
+
+    75% {
+        background-color: blue;
+        margin-left: 400px;
+        margin-top: 400px;
+        
+    }
+
+    100% {
+        margin-top: 400px;
+        margin-right: 400px;
+    }
+}
+/* @keyframes boxAnimation {
+    from {
+        margin-left: 0;
+        transform: rotate(0);
+    }
+
+    50% {
+        background-color: yellow;
+    }
+
+    to {
+        
+        transform: rotate(360deg);
+        margin-left: 800px;
+        background-color: blue;
+    } 
+}
+
+@keyframes Animation {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+    }
+} */
